@@ -1,0 +1,11 @@
+1. copio directori 'frontend' via sftp (bitsi ftp) de local a meanserver (provar a la propera excloure directori npm modules!!) aixi no trigara tant.
+2. chmod -R 755 del directori frontend.
+3. modifico URL crud services de localhost a https://sb-diaribusseig.abellot.net...
+4. compilo: ng build --configuration production
+5. renombro mv frontend/ sb-diaribusseig
+6. moc mv sb-diaribusseig ../../backend
+7. exectuo servidor backend per provar aplicatiu si ok: npm start
+8. si ok, aleshores executo definitiu i en background: nohup `npm start` &
+
+curs:
+https://www.youtube.com/watch?v=VhxrmFGXPVs&t=4s
